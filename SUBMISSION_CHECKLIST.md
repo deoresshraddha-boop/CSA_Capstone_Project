@@ -1,0 +1,13 @@
+# Submission checklist
+- [ ] Terraform code
+- [ ] Architecture diagram (Mermaid diagram in README; export/draw as an image if required)
+- [ ] Terraform validation and apply output
+- [ ] VPC/subnet screenshot
+- [ ] ALB and healthy target screenshot
+- [ ] EC2 private subnet/no public IP screenshot
+- [ ] RDS Public access = No screenshot
+- [ ] Security group rules screenshots (ALB -> EC2 -> RDS)
+- [ ] Browser screenshot of working database-backed app
+- [ ] VPC Flow Logs in CloudWatch screenshot
+- [ ] CloudTrail trail and S3 destination screenshot
+- [ ] `terraform destroy` after collecting evidence
